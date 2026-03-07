@@ -1,0 +1,12 @@
+body{
+    background-image: url("/screenDisplays/wood-bg-1.png");
+    margin: 0;
+}
+
+p{
+    font-family: "Hi Melody";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #F1D59D;
+}
