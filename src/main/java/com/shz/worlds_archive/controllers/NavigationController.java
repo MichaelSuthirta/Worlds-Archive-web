@@ -18,4 +18,10 @@ public class NavigationController {
     public String goToMenu(HttpServletRequest request, Model model){
         return "menu";
     }
+
+    @RequestMapping(value="/Characters/Menu", method=RequestMethod.GET)
+    public String goToCharactersMenu(HttpServletRequest request, Model model){
+        return "characterPage/characterMenu";
+    }
+    
 }

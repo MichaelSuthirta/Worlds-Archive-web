@@ -1,0 +1,25 @@
+.book-background{
+    padding: 20px;
+    background-image: url("/imageAssets/book-bg.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 22vw;
+    padding-right: 22vw;
+}
+
+.picture-page{
+    height: 70vh;
+}
+
+#pictureBtn{
+    height: 52vh;
+    padding-left: 4vw;
+    padding-top: 2vh;
+}

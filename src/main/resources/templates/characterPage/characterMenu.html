@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout/pageMenuLayout :: pageHeader(component='Characters')}">
+</head>
+<body>
+    <th:block th:replace="layout/pageMenuLayout :: contentFrag(content= ~{::div.content})">
+        <div class="content">
+            <p class="pageTitle">Characters</p>
+            <div class="content-grid">
+                <div class="picture-page">
+                    <img src="/buttonAssets/photo-pic-btn.png" id="pictureBtn"/>
+                </div>
+            </div>
+        </div>
+    </th:block>
+</body>
+</html>

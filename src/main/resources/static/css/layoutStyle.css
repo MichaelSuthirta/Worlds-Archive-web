@@ -10,3 +10,12 @@ p{
     font-size: 40px;
     color: #F1D59D;
 }
+
+.pageTitle{
+  font-family: "Irish Grover";
+  font-weight: 400;
+  font-style: normal;
+  justify-self: center;
+  font-size: 64px;
+  margin-top: 0;
+}

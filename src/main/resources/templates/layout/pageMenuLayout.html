@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="pageHeader(component)" 
+th:replace="~{layout/baseLayout :: baseHead(title='Worlds Archive | ' + ${component}, style='/css/pageMenuStyle.css')}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <div th:fragment="contentFrag(content)" class="padding">
+        <div class="book-background">
+            <th:block th:insert="${content}"></th:block>
+        </div>
+    </div>
+</body>
+</html>
