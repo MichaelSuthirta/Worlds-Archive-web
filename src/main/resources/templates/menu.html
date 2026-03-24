@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="layout/baseLayout :: baseHead(title='Worlds Archive | Menu', style='/css/mainMenuStyle.css')">
+<head th:replace="~{layout/baseLayout :: baseHead(title='Worlds Archive | Menu', style='/css/mainMenuStyle.css')}">
 </head>
 <body>
     <div class="menuGrid">
         <div>
             <a href="">
-                <img src="buttonAssets/extras-btn.png" id="extras" name="extras" />
+                <img src="buttonAssets/extras-btn.png" class="imageBtn" id="extras" name="extras" />
             </a>
         </div>
         <div style="justify-self: center;">
@@ -14,17 +14,17 @@
         </div>
         <div>
             <a href="">
-                <img src="buttonAssets/artworks-btn.png" id="artworks" name="artworks" />
+                <img src="buttonAssets/artworks-btn.png" class="imageBtn" id="artworks" name="artworks" />
             </a>
         </div>
         <div>
             <a href="/Characters/Menu">
-                <img src="buttonAssets/characters-btn.png" id="characters" name="characters" />
+                <img src="buttonAssets/characters-btn.png" class="imageBtn" id="characters" name="characters" />
             </a>
         </div>
         <div style="justify-self: center;">
             <a href="">
-                <img src="buttonAssets/locations-btn.png" id="locations" name="locations" />
+                <img src="buttonAssets/locations-btn.png" class="imageBtn" id="locations" name="locations" />
             </a>
         </div>
         <div>

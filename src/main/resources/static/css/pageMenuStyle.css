@@ -2,7 +2,7 @@
     padding: 20px;
     background-image: url("/imageAssets/book-bg.png");
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 930px;
     background-position-x: center;
     background-position-y: bottom;
 }
@@ -18,8 +18,20 @@
     height: 70vh;
 }
 
+.contentList{
+    list-style-type: none;
+}
+
 #pictureBtn{
     height: 52vh;
     padding-left: 4vw;
     padding-top: 2vh;
+}
+
+.addButton{
+    width: 20vw;
+}
+
+.addBtnPic{
+    width: 22vw;
 }

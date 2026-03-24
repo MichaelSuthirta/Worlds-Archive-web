@@ -12,10 +12,20 @@ p{
 }
 
 .pageTitle{
-  font-family: "Irish Grover";
-  font-weight: 400;
-  font-style: normal;
-  justify-self: center;
-  font-size: 64px;
-  margin-top: 0;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    justify-self: center;
+    font-size: 64px;
+    margin-top: 0;
+}
+
+.secondaryTitle{
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    justify-self: center;
+    font-size: 45px;
+    margin-top: 0;
+    color: #7F5730;
 }

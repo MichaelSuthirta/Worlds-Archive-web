@@ -5,6 +5,9 @@
     max-height: 100vh;
 }
 
+.imageBtn:hover{
+    filter: brightness(80%);
+}
 
 #titleDisplay{
     width: 30vw;
@@ -13,18 +16,18 @@
 
 #extras{
     width: 18vw;
-    padding-top: 17vh;
+    margin-top: 17vh;
 }
 
 #artworks{
     width: 16vw;
-    padding-left: 10vw;
-    padding-top: 12vh;
+    margin-left: 10vw;
+    margin-top: 12vh;
 }
 
 #characters{
     width: 16vw;
-    padding-left: 7vw;
+    margin-left: 7vw;
 }
 
 #locations{
@@ -33,6 +36,6 @@
 
 #stories{
     width: 25vw;
-    padding-left: 10vw;
-    padding-top: 8vh;
+    margin-left: 10vw;
+    margin-top: 8vh;
 }
